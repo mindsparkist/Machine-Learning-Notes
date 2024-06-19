@@ -176,6 +176,8 @@ As a software engineer working with machine learning, understanding vectorizatio
 
 **In essence, vectorization is a technique for organizing data into vectors, which are more efficient for processing and calculations, especially in machine learning tasks.**
 
+## recommendation algorithm
+
 Imagine you're in a giant library with endless books. A recommendation algorithm is like a friendly librarian who suggests books you might enjoy based on what you've borrowed before. Here's the gist:
 
 1. **Gather User Data:**  The system tracks your past actions, like purchases, ratings, or browsing history.
