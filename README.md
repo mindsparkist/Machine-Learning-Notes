@@ -189,3 +189,17 @@ There are different approaches, but a common one is **collaborative filtering**.
 Another approach is **content-based filtering**. Here, the librarian analyzes the content of the books you like (e.g., sci-fi themes). They might then suggest other books with similar themes, even if they haven't been borrowed by similar users.
 
 These are simplified examples, but hopefully, they give you a basic idea of how recommendation algorithms work! 
+
+### Supervised learning 
+
+Supervised learning is like training a program with flashcards. You show it examples (data) with answers (labels), like "cat" for a picture of a cat. The program learns the patterns and uses them to predict labels for new data, like identifying a dog in a different picture.  
+
+## Naive Bayes algorithm
+
+Imagine you're sorting your inbox into spam and important emails. Naive Bayes is like a quick sorter that uses probabilities. Here's the idea:
+
+1. **Train the sorter:** You show it examples of spam and important emails with clues like sender address (work vs unknown), words used (promotions vs reports), etc.
+2. **Probability Party:** For a new email, it calculates the probability of each clue being spam (e.g., "promotions" is more likely spam) and multiplies them.
+3. **Spam or Not Spam?** If the overall probability is high, it marks it as spam. Otherwise, it goes to your inbox.
+
+**Think of it as a guessing game:** Naive Bayes uses educated guesses based on probabilities to quickly classify things (emails) based on various clues (sender, words). It's not perfect, but it's a good starting point for many tasks!
